@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal-hunt"
+version = "0.1.0"
+description = "Offline-first workflow CLI for authorized bug bounty research."
+readme = "CLI_GUIDE.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kritik Bhattarai" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+signal-hunt = "signal_hunt.cli:main"
+
+[tool.setuptools]
+packages = ["signal_hunt"]

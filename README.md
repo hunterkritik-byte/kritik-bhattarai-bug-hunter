@@ -11,6 +11,7 @@ The site uses the **Signal After Dark** visual system: a restrained blue-black o
 | Identity | Custom signal mark, spaced wordmark, favicon, and direct contact route |
 | Visual system | Responsive 3D hero, evidence-led panels, topology motifs, and reduced-motion support |
 | Terminal | A fixed-command client-side demo with `help`, `whoami`, `focus`, `contact`, and `clear`; it never executes shell commands or network requests |
+| Signal Hunt CLI | An offline-first Python toolkit for scope records, sanitized evidence, responsible-testing checklists, and draft report scaffolding |
 | Deployment | Vite static build with a Netlify-ready `netlify.toml` configuration |
 
 ## Local development
@@ -30,6 +31,18 @@ pnpm build
 ```
 
 The generated static site is written to `dist/public`.
+
+## Signal Hunt CLI
+
+This repository also contains **Signal Hunt**, a Python command-line companion for authorized security-research workflow management. It is local-only by design and does not scan targets, execute payloads, send network requests, or store credentials.
+
+```bash
+python3 -m pip install -e .
+signal-hunt init
+signal-hunt checklist show
+```
+
+Read the complete command reference and safe-use boundaries in [`CLI_GUIDE.md`](./CLI_GUIDE.md). Run the CLI tests with `python3 -m unittest discover -s tests -v`.
 
 ## Netlify deployment
 

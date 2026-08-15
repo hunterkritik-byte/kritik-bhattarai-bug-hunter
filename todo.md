@@ -7,3 +7,7 @@
 - [x] Add README.md, SECURITY.md, and an MIT LICENSE.
 - [x] Verify the revised site and confirm the connected GitHub repository target.
 - [x] Save the enhancement checkpoint; the verified repository is already public.
+- [x] Define the safe offline command set and local workspace structure.
+- [x] Implement the Python CLI for scope, evidence, checklist, and report workflows.
+- [x] Add CLI documentation, tests, and representative usage examples.
+- [x] Validate the CLI and save the completed release checkpoint.
