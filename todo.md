@@ -1,0 +1,5 @@
+- [x] Initialize the website project and document the chosen design direction.
+- [x] Generate the logo and visual assets for the neon bug-hunter brand.
+- [x] Implement responsive portfolio sections and interactive effects.
+- [x] Verify the rendered experience and add Netlify deployment instructions.
+- [x] Save a project checkpoint and deliver the completed site.

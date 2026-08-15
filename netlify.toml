@@ -1,0 +1,12 @@
+# Signal After Dark portfolio: static Netlify deployment configuration.
+[build]
+  command = "pnpm build"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
