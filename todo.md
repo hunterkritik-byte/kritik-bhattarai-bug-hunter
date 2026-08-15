@@ -3,3 +3,7 @@
 - [x] Implement responsive portfolio sections and interactive effects.
 - [x] Verify the rendered experience and add Netlify deployment instructions.
 - [x] Save a project checkpoint and deliver the completed site.
+- [x] Define safe terminal commands and add the interactive terminal/typing interface.
+- [x] Add README.md, SECURITY.md, and an MIT LICENSE.
+- [x] Verify the revised site and confirm the connected GitHub repository target.
+- [x] Save the enhancement checkpoint; the verified repository is already public.

@@ -1,21 +1,18 @@
 # Security Policy
 
-## Supported Versions
+## Reporting a vulnerability
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+If you identify a security concern in this portfolio repository or its deployed static site, please report it privately to [projectvuln@gmail.com](mailto:projectvuln@gmail.com). Include a concise description, affected URL or file, steps to reproduce, expected and observed behavior, and any suggested mitigation.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Please do **not** include sensitive details, credentials, private user data, or working exploit payloads in a public GitHub issue. This is a static portfolio website; reports should focus on this repository, its deployment configuration, or first-party assets.
 
-## Reporting a Vulnerability
+## Supported version
 
-Use this section to tell people how to report a vulnerability.
+| Version | Supported |
+| --- | --- |
+| `main` | Yes |
+| Earlier commits | No |
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Disclosure expectations
+
+Please allow time for the report to be reviewed before disclosing a vulnerability publicly. Keep testing low-impact and avoid any action that could alter, delete, exfiltrate, or degrade data or services.

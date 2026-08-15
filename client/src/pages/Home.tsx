@@ -13,6 +13,7 @@ import {
   ShieldCheck,
   Terminal,
 } from "lucide-react";
+import TerminalConsole from "@/components/TerminalConsole";
 
 const assets = {
   hero: "/manus-storage/kritik-signal-hero_0c001e51.png",
@@ -85,6 +86,15 @@ export default function Home() {
             </div>
             <p className="visual-caption">ACTIVE SURFACE / <span>MONITORED</span></p>
           </div>
+        </section>
+
+        <section className="terminal-section" aria-labelledby="terminal-title">
+          <div className="terminal-section-lead">
+            <SignalLabel>01.5 / FIELD INSTRUMENT</SignalLabel>
+            <h2 id="terminal-title">Run the public <span>signal console.</span></h2>
+            <p>This is a portfolio interface, not a live system shell. It only returns public information about my research focus and contact channel.</p>
+          </div>
+          <TerminalConsole />
         </section>
 
         <section className="signal-section profile-section" id="profile" aria-labelledby="profile-title">
