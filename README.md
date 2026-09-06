@@ -4,6 +4,32 @@
 
 The site uses the **Signal After Dark** visual system: a restrained blue-black operations console, Tracer Cyan verification states, a 3D wireframe hero, Nepal field-node metadata, and a small public-information terminal.
 
+## 🚀 Current enhancements
+
+| Area | Updated capability |
+| --- | --- |
+| Portfolio | Clearer security-research workflow and project discovery |
+| Terminal | Safe client-side commands with no shell execution or network access |
+| Signal Hunt CLI | Offline scope records, sanitized evidence, checklists, and report scaffolding |
+| Hunt Sift | Offline artifact analysis, deterministic triage, SARIF/HTML reporting, and case digests |
+| WaveForge | Software-only wireless simulation with reproducible headless telemetry |
+| Wi-Fi Detector | Passive suspicious-network indicators with explainable multi-signal scoring |
+| Accessibility | Responsive layout and reduced-motion support |
+| Deployment | Vite static build with Netlify-ready configuration |
+
+## Research toolkit
+
+This portfolio now acts as the front door for a small, safety-first research toolkit:
+
+```text
+ARTIFACT → ANALYZE → TRIAGE → CONTROLLED REPRO → ROOT CAUSE → DOCUMENT
+    │          │          │             │              │          │
+ Hunt Sift  Wi-Fi       local        authorized     WaveForge   reports
+            Detector    scoring       testing
+```
+
+All tooling is designed around researcher-supplied data, explicit authorization, reproducibility, and minimal sensitive evidence.
+
 ## Highlights
 
 | Area | Included experience |
@@ -15,8 +41,6 @@ The site uses the **Signal After Dark** visual system: a restrained blue-black o
 | Deployment | Vite static build with a Netlify-ready `netlify.toml` configuration |
 
 ## Local development
-
-Install dependencies and start the development server.
 
 ```bash
 pnpm install
@@ -46,7 +70,7 @@ Read the complete command reference and safe-use boundaries in [`CLI_GUIDE.md`](
 
 ## Netlify deployment
 
-The repository includes `netlify.toml`. When importing this repository into Netlify, use the following configuration.
+The repository includes `netlify.toml`.
 
 | Setting | Value |
 | --- | --- |
@@ -55,10 +79,6 @@ The repository includes `netlify.toml`. When importing this repository into Netl
 | Node version | `22` |
 
 For more detail, see [`NETLIFY_DEPLOYMENT.md`](./NETLIFY_DEPLOYMENT.md).
-
-## Contact
-
-For responsible security communication or portfolio contact, email [projectvuln@gmail.com](mailto:projectvuln@gmail.com) or visit [github.com/hunterkritik-byte](https://github.com/hunterkritik-byte).
 
 ## Security
 
